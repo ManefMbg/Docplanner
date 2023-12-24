@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+*{
+     /* border: 1px solid red; */
+}
+
+
+nav{
+    margin-top: 5px;
+    margin-right: 20%;
+    /* position: fixed; */
+    
+}
+
+.text{
+
+    color: #00B39B;
+}
+
+
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+
+
+.top {
+    padding-left: 15rem;
+
+}
+
+img{
+    width: 50px;     
+}
+
+#minilogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.titre a{
+    color: #00C3A5;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.titre a:hover{
+    color: #00C3A5;
+}
+
+
+#grp{
+    color: #ABABAB;
+}
+
+.menu{
+margin-left: 65%;
+margin-top: -2.5rem;
+display: flex;
+justify-content: flex-end;
+
+}
+
+.menu a {
+    color: grey;
+    text-decoration: none;
+    margin: 1%;
+}
+
+.dropdown{
+    color: grey;
+    position: relative;
+    display: inline-block;
+    margin: 1%;
+}
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    width: 230px !important;
+  }
+
+
+
+  .menu a:hover{
+    color: #00B39B !important; 
+
+}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.text{
+    text-align: center;
+    color: #00B39B;
+    font-size: 32px;
+    margin-top: 16px;
+}
+
+.main-text{
+
+    margin-top: 5%;
+}
+
+@media screen and (min-width: 700px){
+
+.main-p{
+
+    display: flex;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    font-family: 'Roboto',Arial, sans-serif;
+    color: #747474;    
+    box-sizing: inherit;
+
+    
+}
+
+}
+
+.para-1{
+   
+    margin-left: 20rem;
+    margin-right: 10rem;
+    /* border: solid 1px red; */
+
+}
+
+.para-2{
+   
+    margin-left: 0rem;
+    margin-right: 15rem;
+    /* border: solid 1px red; */
+
+}
+
+.row{
+
+    padding-left: 7rem;
+
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row h5{
+    padding-top: 5px;
+}
+
+.bot{
+
+    width: 50%;
+    margin: auto;
+    padding: 5rem;
+    padding-left: 15rem;
+
+}
+
